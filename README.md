@@ -1,5 +1,5 @@
-# Overview & Objective
-
+# Project Overview & Objective
+The main objective of this project is to learn an apply R programming language,tool that allow to execute statistical analysis on  datasets, in this specific case, the project is focalized in the automotive industry called "MechaCar" as described in the following paragraph.
 Jeremy is ecstatic that he has been given the opportunity to lead the team dand  He's confident that his 10 years experience  with the manufacturing and research, has provided him with the  expertise needed for this data analytic analysis. However, he is not  confident about his statistics skills and programming ability. Additionally Jeremey as never beenscare to go away for a challenge from a challenge. He knows that if he fully capabale and ready to commit to learn stats and R programming, and Learn R seems to be a good start point to prepare for his new role.
 It was applied in this module and challenge our understanding of statistics and hypothesis testing to analyze a series of datasets from the automotive industry. 
 The analysis  include visualizations, statistical tests, and interpretation of the results. to execute it, all the statistical analysis and visualizations was written in the R programming language. It was extracted, transformed, and loaded (ETL) data; visualized  and analyzed the data using R. Additionally, it was learned a variety of statistical tests, with real-world application in data science, and their implementation in R. The goal was to apply all the mentioned these statistical concepts beyond this module, to any dataset, using any programming language—including Python.
@@ -35,7 +35,10 @@ Especifically in this challenge, it was performed the following:
 * Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 
 ## Deliverable 1: Linear Regression to Predict MPG
-To execurte and deliver the challenge it was imported the file MerchaCar_mpg.csv and read into a Dataframe, and Rscrip was writteng for a linera regression executed on all six variables, and to create the summary (statistical) of the linear regression model with the intended p-values as shown in figure below
+To execurte and deliver the challenge it was imported the file MerchaCar_mpg.csv and read into a Dataframe, and Rscrip was writteng for a linera regression executed on all five different variables, and to create the summary (statistical) of the linear regression model, allowing to identify which variables can be used for prediction and which ones not.with the intended p-values as shown in figure below
+
+![this is an image](
+
 
 Resulting model: mpg = (6.267)vehicle_length + (0.0012)vehicle_weight + (0.0688)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD + (-104.0); see image with console result below:
 
@@ -68,6 +71,6 @@ After that it was wrote an RScript that creates a lot_summary dataframe using th
 ## Deliverable 3: Suspension Coils - T-Test
 The goal was  to perform one-sample t-tests to determine if all manufacturing lots combined and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
-![this is an image]()
+![this is an image](https://github.com/JJF1962/MechaCar_Statistical_Analysis/blob/main/Resources/Delivery%203%20Each%20individual%20lot.PNG)
 
 ## DEliverable 4: Comparing the MechaCar to the Competition
