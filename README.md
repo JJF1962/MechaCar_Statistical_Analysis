@@ -34,13 +34,12 @@ Especifically in this challenge, it was performed the following:
 * Deliverable 3: T-Test on Suspension Coils
 * Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 
-## Deliverable 1: Linear Regression to Predict MPG
+## Deliverable 1: Multiple Linear Regression Model to Predict MPG
 To execurte and deliver the challenge it was imported the file MerchaCar_mpg.csv and read into a Dataframe, and Rscrip was writteng for a linera regression executed on all five different variables, and to create the summary (statistical) of the linear regression model, allowing to identify which variables can be used for prediction and which ones not.with the intended p-values as shown in figure below
 
-![this is an image](
+![this is an image](https://github.com/JJF1962/MechaCar_Statistical_Analysis/blob/main/Resources/linear%20regression%20model%20delivery1%20(0)%20%20.PNG)
 
-
-Resulting model: mpg = (6.267)vehicle_length + (0.0012)vehicle_weight + (0.0688)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD + (-104.0); see image with console result below:
+It was a must to identify if the slope of this model can be considered zero, therefore it was executed the following Multiple Linear Regression summary was executed
 
 ![this is an image](https://github.com/JJF1962/MechaCar_Statistical_Analysis/blob/main/Resources/Resulting%20model%20Deliverable%201.PNG)
 
