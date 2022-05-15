@@ -39,7 +39,7 @@ To execurte and deliver the challenge it was imported the file MerchaCar_mpg.csv
 
 Resulting model: 
 
-![this is an image]()
+![this is an image](https://github.com/JJF1962/MechaCar_Statistical_Analysis/blob/main/Resources/Resulting%20model%20Deliverable%201.PNG)
 
 Statistical Summary:
 Based on the previous output we can start to conclude the following:
