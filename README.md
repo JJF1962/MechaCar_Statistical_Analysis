@@ -72,7 +72,7 @@ The goal was  to perform one-sample t-tests to determine if all manufacturing lo
 
 ![this is an image](https://github.com/JJF1962/MechaCar_Statistical_Analysis/blob/main/Resources/Delivery%203%20Each%20individual%20lot.PNG)
 
-However, The p-value result of 0.04168 in the Lot 3, is lower than 0,05, it clearly indicates that there is an statistical differential from the population mean of 1500, therefore this lot not comply with the quality standards and most the product must be improved or other action posible as a material rejection needs to be considered.
+However, The p-value result of 0.04168 in the Lot 3, is lower than 0.05 (signifificance level for the p-value), it clearly indicates that there is an statistical differential from the population mean of 1500, therefore this lot not comply with the quality standards and most the product must be improved or other action posible as a material rejection needs to be considered.
 
 ## Deliverable 4: Comparing the MechaCar to the Competition
 The objective of this deliverable 4, is to desing a consultancy study that allow to compare MechaCar with a competitor, focusing in what will make the client decide to buy a NechaCar and not other car manufactured by a competitor
