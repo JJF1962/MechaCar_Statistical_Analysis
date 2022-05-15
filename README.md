@@ -50,15 +50,15 @@ Based on the previous output we can start to conclude the following:
 It will be good to complete this excersize remove variacles such as Vehicle weight, spoiler angle and All Wheel Drive to evaluate if the predictability of th R-quared value decrease, increase or the variation is minimum.
 
 ## Deliverable 2: Suspension Coils Statisticals Summary  
-the results from multiple production lots are contained in The Suspension_Coil.csv dataset,  and the Suspension Coil’s PSI continuous variable across all manufacturing lots, allowing to calculate PSI metrics for each lot: mean, median, variance, and standard deviation, as shown in the figure below.
-
-![this is an image](https://github.com/JJF1962/MechaCar_Statistical_Analysis/blob/main/Resources/Delivery%202%20point%201%20Total%20Summary%20Data%20Frame.PNG)
+the results from multiple production lots are contained in The Suspension_Coil.csv dataset,  and the Suspension Coil’s PSI continuous variable across all manufacturing lots, allowing to calculate PSI metrics for each lot: mean, median, variance, and standard deviation, as shown in the figure below
 
 To obtain the results showed previously, It was executed a techcical analysis, following the steps detailed as follows:
 Technical Analysis
 * Download the Suspension_Coil.csv file, and place it in the active directory for your R session.
 * In the MechaCarChallenge.RScript, import and read in the Suspension_Coil.csv file as a table.
 * Write an RScript that creates a total_summary dataframe using the summarize() function to get the mean, median, variance, and standard deviation of the suspension     coil’s PSI column.
+
+![this is an image]()
 
 After that it was wrote an RScript that creates a lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column as shown in the figure below:
 
@@ -69,4 +69,4 @@ After that it was wrote an RScript that creates a lot_summary dataframe using th
 
 
 
-![this is an image]()
+![this is an image](https://github.com/JJF1962/MechaCar_Statistical_Analysis/blob/main/Resources/Delivery%202%20point%201%20Total%20Summary%20Data%20Frame.PNG)
