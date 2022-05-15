@@ -37,11 +37,14 @@ Especifically in this challenge, it was performed the following:
 ## Deliverable 1: Linear Regression to Predict MPG
 To execurte and deliver the challenge it was imported the file MerchaCar_mpg.csv and read into a Dataframe, and Rscrip was writteng for a linera regression executed on all six variables, and to create the summary (statistical) of the linear regression model with the intended p-values as shown in figure below
 
-Resulting model: 
+Resulting model: mpg = (6.267)vehicle_length + (0.0012)vehicle_weight + (0.0688)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD + (-104.0); see image with console result below:
 
 ![this is an image](https://github.com/JJF1962/MechaCar_Statistical_Analysis/blob/main/Resources/Resulting%20model%20Deliverable%201.PNG)
 
 Statistical Summary:
 Based on the previous output we can start to conclude the following:
+* The length and ground clearance  of the vehicle are statistically likely to provide non-random amounts of variance specifically  to the model. However, the length and ground clearance have a significant of the vehicle impact on miles per gallon on the MechaCar type. Oppositely, the spoiler angle, weight, and All Wheel Drive (AWD) have p-Values that indicate a random amount of variance with the dataset.
+* The p-Value(, p-Value: 5.35e-11), it is smaller than the assumed significance level of 0.05%. indicating that is sufficient evidence to reject the null hypothesis, showing that the slope of this linear model is not equal to zero.
+* The linear model has an r-squared value of 0.7149, as shown in the previous result, allowing to indicate that approximately 71% of the mpg will be determined by this model, additionally the  multiple regression model allow to forecast mpg of MechaCar types effectively.
 
-
+![this is an image]()
