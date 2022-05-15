@@ -46,9 +46,9 @@ It was a must to identify if the slope of this model can be considered zero, the
 
 Statistical Summary:
 Based on the previous output we can start to conclude the following:
-* The only two variables accountables after reviewed the p-value are Vehicule _lenghty and ground_clearance for the non randon variance. The p-value is 0.05 and the null Hypotheis assumes a value of coficient "zero", allow to conclude there are no "zero" coficients. 
-
-It will be good to complete this excersize remove variables such as Vehicle weight, spoiler angle and All Wheel Drive to evaluate if the predictability of th R-quared value decrease, increase or the variation is minimum.
+* The only two variables accountables after reviewed the p-value are Vehicule _lenghty and ground_clearance for the non randon variance. The p-value is 0.05 and the null Hypotheis assumes a value of cofficient "zero", and alternative one no "zero" allow to conclude there are no "zero" coefficients. 
+* The model no predict effectively  the mpg of the prototypes MechaCars, because the adjusted R-squared of 0.6825, equivalent to (68%) of the variance of the metrics already discussed, meaning that 32% is caused by not determined factors.
+* It will be good to complete this excersize remove variables such as Vehicle weight, spoiler angle and All Wheel Drive to evaluate if the predictability of th R-quared value decrease, increase or the variation is minimum.
 
 ## Deliverable 2: Suspension Coils Statisticals Summary  
 the results from multiple production lots are contained in The Suspension_Coil.csv dataset,  and the Suspension Coil’s PSI continuous variable across all manufacturing lots, allowing to calculate PSI metrics for each lot: mean, median, variance, and standard deviation, as shown in the figure below
@@ -65,10 +65,13 @@ After that it was wrote an RScript that creates a lot_summary dataframe using th
 
 ![this is an image](https://github.com/JJF1962/MechaCar_Statistical_Analysis/blob/main/Resources/Delivery%202%20point%202%20Lot%20Summary.PNG)
 
+The data meets the specifications because the  lot 1 and Lot 2  low values make the average of the Lots 1, 2 and 3 to the accepted variance
 
 ## Deliverable 3: Suspension Coils - T-Test
 The goal was  to perform one-sample t-tests to determine if all manufacturing lots combined and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
 ![this is an image](https://github.com/JJF1962/MechaCar_Statistical_Analysis/blob/main/Resources/Delivery%203%20Each%20individual%20lot.PNG)
+
+However, The p-value result of 0.04168 in the Lot 3 clearly indicates that there is an statistical differential from the population mean of 1500, therefore this lot not comply with the quality standards and most the product must be improved or other action posible as a material rejection needs to be considered.
 
 ## DEliverable 4: Comparing the MechaCar to the Competition
