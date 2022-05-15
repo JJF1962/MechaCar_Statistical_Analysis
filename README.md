@@ -41,7 +41,8 @@ To execurte and deliver the challenge it was imported the file MerchaCar_mpg.csv
 
 It was a must to identify if the slope of this model can be considered zero, therefore it was executed the following Multiple Linear Regression summary was executed
 
-![this is an image](https://github.com/JJF1962/MechaCar_Statistical_Analysis/blob/main/Resources/Resulting%20model%20Deliverable%201.PNG)
+![this is an image](![image](https://user-images.githubusercontent.com/97784444/168455430-6d959243-acff-4480-8870-70437ea4ecf0.png)
+
 
 Statistical Summary:
 Based on the previous output we can start to conclude the following:
