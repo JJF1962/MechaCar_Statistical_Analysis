@@ -46,11 +46,9 @@ It was a must to identify if the slope of this model can be considered zero, the
 
 Statistical Summary:
 Based on the previous output we can start to conclude the following:
-* The length and ground clearance  of the vehicle are statistically likely to provide non-random amounts of variance specifically  to the model. However, the length and ground clearance have a significant of the vehicle impact on miles per gallon on the MechaCar type. Oppositely, the spoiler angle, weight, and All Wheel Drive (AWD) have p-Values that indicate a random amount of variance with the dataset.
-* The p-Value(, p-Value: 5.35e-11), it is smaller than the assumed significance level of 0.05%. indicating that is sufficient evidence to reject the null hypothesis, showing that the slope of this linear model is not equal to zero.
-* The linear model has an r-squared value of 0.7149, as shown in the previous result, allowing to indicate that approximately 71% of the mpg will be determined by this model, additionally the  multiple regression model allow to forecast mpg of MechaCar types effectively.
+* The only two variables accountables after reviewed the p-value are Vehicule _lenghty and ground_clearance for the non randon variance. The p-value is 0.05 and the null Hypotheis assumes a value of coficient "zero", allow to conclude there are no "zero" coficients. 
 
-It will be good to complete this excersize remove variacles such as Vehicle weight, spoiler angle and All Wheel Drive to evaluate if the predictability of th R-quared value decrease, increase or the variation is minimum.
+It will be good to complete this excersize remove variables such as Vehicle weight, spoiler angle and All Wheel Drive to evaluate if the predictability of th R-quared value decrease, increase or the variation is minimum.
 
 ## Deliverable 2: Suspension Coils Statisticals Summary  
 the results from multiple production lots are contained in The Suspension_Coil.csv dataset,  and the Suspension Coil’s PSI continuous variable across all manufacturing lots, allowing to calculate PSI metrics for each lot: mean, median, variance, and standard deviation, as shown in the figure below
