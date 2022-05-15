@@ -47,4 +47,7 @@ Based on the previous output we can start to conclude the following:
 * The p-Value(, p-Value: 5.35e-11), it is smaller than the assumed significance level of 0.05%. indicating that is sufficient evidence to reject the null hypothesis, showing that the slope of this linear model is not equal to zero.
 * The linear model has an r-squared value of 0.7149, as shown in the previous result, allowing to indicate that approximately 71% of the mpg will be determined by this model, additionally the  multiple regression model allow to forecast mpg of MechaCar types effectively.
 
-![this is an image]()
+Removing independent variables such as: vehicule weight, spoiler angle and all Wheel Drive, the predictability no decrease drastically, the r-Squared value moves from 0.7149 to 0.674 
+> lm(mpg ~vehicle_lenght + ground_clearance, data=MechaCar_mpg)
+
+![this is an image](https://github.com/JJF1962/MechaCar_Statistical_Analysis/blob/main/Resources/Resulting%20model%20Deliverable%201.PNG)
