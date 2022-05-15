@@ -65,4 +65,9 @@ After that it was wrote an RScript that creates a lot_summary dataframe using th
 ![this is an image](https://github.com/JJF1962/MechaCar_Statistical_Analysis/blob/main/Resources/Delivery%202%20point%202%20Lot%20Summary.PNG)
 
 
+## Deliverable 3: Suspension Coils - T-Test
+The goal was  to perform one-sample t-tests to determine if all manufacturing lots combined and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
+![this is an image]()
+
+## DEliverable 4: Comparing the MechaCar to the Competition
