@@ -62,4 +62,11 @@ Technical Analysis
 
 After that it was wrote an RScript that creates a lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column as shown in the figure below:
 
+![this is an image](https://github.com/JJF1962/MechaCar_Statistical_Analysis/blob/main/Resources/Delivery%202%20point%202%20Lot%20Summary.PNG)
+
+
+
+
+
+
 ![this is an image]()
